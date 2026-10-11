@@ -57,7 +57,7 @@ Breast_Cancer_Predictor/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/ravikumar-0202/Breast_Cancer_Predictor.git
+git clone https://github.com/ravikumar044/Breast_Cancer_Predictor.git
 ```
 
 2. Navigate to the project folder
