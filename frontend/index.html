@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>Breast Cancer Predictor</title>
+
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+
+<body>
+
+```
+<header class="navbar">
+    <div class="logo">
+        <span class="logo-icon">+</span>
+        <span>BreastCare AI</span>
+    </div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#predictor">Predictor</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<main>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <p class="eyebrow">MACHINE LEARNING PROJECT</p>
+
+            <h1>
+                Breast Cancer
+                <span>Prediction</span>
+            </h1>
+
+            <p class="hero-description">
+                Explore a machine-learning model that analyzes
+                numerical cell measurements and returns a predicted
+                classification.
+            </p>
+
+            <a href="#predictor" class="primary-button">
+                Try the Predictor →
+            </a>
+
+            <p class="hero-note">
+                Educational demonstration · Not a medical diagnosis
+            </p>
+        </div>
+
+        <div class="hero-card">
+            <div class="medical-icon">✚</div>
+
+            <h3>AI-Powered Analysis</h3>
+
+            <p>
+                Logistic Regression model with standardized numerical
+                features.
+            </p>
+
+            <div class="status">
+                <span class="status-dot"></span>
+                Prediction API configured
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Predictor Section -->
+    <section class="predictor-section" id="predictor">
+
+        <div class="section-heading">
+            <p class="eyebrow">PREDICTION TOOL</p>
+
+            <h2>Enter Cell Measurements</h2>
+
+            <p>
+                Enter the 30 numerical features used by the trained
+                model. Use measurements from a legitimate dataset or
+                an appropriately validated source.
+            </p>
+        </div>
+
+        <form id="prediction-form">
+
+            <!-- JavaScript will generate the 30 input fields here -->
+            <div id="features-container"></div>
+
+            <button type="submit" id="predict-button">
+                Predict Classification
+            </button>
+
+        </form>
+
+        <!-- Prediction Result -->
+        <div id="result-container" class="result-container" hidden>
+
+            <h3>Prediction Result</h3>
+
+            <p id="prediction-result"></p>
+
+            <p id="prediction-message"></p>
+
+        </div>
+
+        <p class="medical-disclaimer">
+            <strong>Important:</strong>
+            This tool is for educational and demonstration purposes
+            only. It is not a medical diagnostic system. Consult a
+            qualified healthcare professional for medical advice.
+        </p>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+
+        <p class="eyebrow">ABOUT THE PROJECT</p>
+
+        <h2>How It Works</h2>
+
+        <div class="about-grid">
+
+            <article class="about-card">
+                <h3>01. Input</h3>
+
+                <p>
+                    Enter the 30 numerical features associated with
+                    the cell sample.
+                </p>
+            </article>
+
+            <article class="about-card">
+                <h3>02. Processing</h3>
+
+                <p>
+                    The backend scales the features and processes them
+                    with the trained Logistic Regression model.
+                </p>
+            </article>
+
+            <article class="about-card">
+                <h3>03. Output</h3>
+
+                <p>
+                    The model returns its predicted classification:
+                    benign or malignant.
+                </p>
+            </article>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <p>
+        BreastCare AI · Educational Machine Learning Project
+    </p>
+</footer>
+
+<script src="script.js"></script>
+```
+
+</body>
+</html>
