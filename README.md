@@ -31,17 +31,26 @@ Saved artifacts: breast_cancer_model.pkl, scaler.pkl
 Project Structure
 
 Breast_Cancer_Predictor/
+
 ├── backend/
+
 │   ├── main.py
 │   └── requirements.txt
+
 ├── frontend/
+
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
+
 ├── Breast_Cancer_Prediction.ipynb
+
 ├── data.csv
+
 ├── breast_cancer_model.pkl
+
 ├── scaler.pkl
+
 └── README.md
 
 Your actual folder may contain additional files, such as a virtual environment. Do not commit a virtual environment to GitHub.
@@ -68,6 +77,7 @@ cd Breast_Cancer_Predictor
 Windows PowerShell:
 
 python -m venv venv
+
 .\venv\Scripts\Activate.ps1
 
 If PowerShell blocks activation, you can use Command Prompt instead:
@@ -77,6 +87,7 @@ venv\Scripts\activate.bat
 3. Install backend dependencies
 
 python -m pip install --upgrade pip
+
 pip install -r backend/requirements.txt
 
 The backend requirements should include at least:
